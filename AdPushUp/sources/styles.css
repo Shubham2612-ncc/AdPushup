@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(250, 55, 88);
+  color: whitesmoke;
+}
+.headerDiv {
+  width: 100%;
+
+  > h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    font-style: italic;
+    margin-left: 20px;
+  }
+}
+
+.headerP {
+  width: 60%;
+  margin-left: 50px;
+
+  > p {
+    font-size: 30px;
+  }
+
+  > img {
+    width: 15px;
+  }
+
+  > h3 {
+    width: 350px;
+    font-size: 20px;
+    margin-top: -22px;
+    margin-left: 30px;
+  }
+}
+
+#demoSetUp {
+  width: 150px;
+  height: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.headerSlider {
+  width: 50%;
+  height: 100px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin-left: 350px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    animation: partners 4s ease-in 1s infinite normal running;
+  }
+}
+
+@keyframes partners {
+  from {
+    transform: translateX(30%);
+  }
+}
+
+.memberImg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  > img:nth-child(4) {
+    width: 320px;
+  }
+}
+
+.demoForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > h1 {
+    text-align: center;
+  }
+  > form {
+    > label {
+      font-size: 15px;
+      text-align: center;
+      margin-bottom: 10px;
+      > span {
+        color: red;
+      }
+    }
+
+    > input {
+      width: 300px;
+      padding: 5px;
+      margin-top: 5px;
+      text-align: center;
+    }
+
+    > select {
+      width: 310px;
+      height: 25px;
+    }
+
+    > button {
+      margin: 30px 150px 10px 80px;
+      padding: 15px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(230, 22, 77);
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+
+  > p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+
+    > span {
+      font-weight: bolder;
+    }
+  }
+}
+
+.accesses {
+  background-color: rgb(245, 214, 239);
+
+  > h1 {
+    text-align: center;
+    font-weight: bolder;
+  }
+  > div {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    > img {
+      width: 250px;
+      height: 150px;
+    }
+
+    > div {
+      width: 400px;
+
+      > h1 {
+        color: rgb(240, 92, 92);
+
+        > span {
+          padding: 5px;
+          background-color: azure;
+          border: 1px solid red;
+          border-radius: 50px;
+        }
+      }
+
+      > p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+}
+
+.reasons {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+
+  > div {
+    width: 350px;
+    height: 300px;
+    background-color: #ff4858;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+}
+
+.fellow {
+  margin-top: 30px;
+  text-align: center;
+  height: 100px;
+  background-color: rgb(251, 208, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.integrate {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+    text-decoration-color: aquamarine;
+  }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  color: white;
+
+  background-color: #ff4858;
+
+  .earning {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    > div {
+      width: 250px;
+
+      p {
+        font-size: x-large;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        > span {
+          font-size: xx-large;
+          font-weight: 800;
+        }
+      }
+    }
+
+    > img {
+      width: 300px;
+    }
+  }
+}
+
+.copyright{
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    text-align: center;
+    
+}
